@@ -79,3 +79,9 @@ $languageRecognizerClient = new \MouYong\Translate\Clients\LanguageRecognizerCli
 $languageRecognizer = $languageRecognizerClient->detect("Словѣ́ньскъ/ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ");
 var_dump($languageRecognizer->getData());
 ```
+
+## TODO
+
+[ ] Deepl
+[ ] Bing
+[ ] Tenant
